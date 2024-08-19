@@ -1,0 +1,301 @@
+/* Global css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+body{
+    background-color: white;
+    font-family: "Azeret Mono", monospace;
+    font-style: normal;
+}
+p{
+    font-family: "Azeret Mono", monospace;
+}
+section{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37.34px;
+    color: #0D1321;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+}
+button{
+    width: Hug (244px)px;
+    height: Hug (65px)px;
+    padding: 18px 24px 18px 24px;
+    border-radius: 8px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.34px;
+    text-align: center;
+}
+.img-fluid{
+    max-width: 100%;
+}
+/* Global css end */
+
+/* banner section start */
+#banner{
+    width: 100%;
+    background-image: url(/images/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.banner-content img{
+    max-width: 100%;
+}
+.banner-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    padding: 25px 0 30px;
+}
+.banner-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 30px;
+    color: #0D1321;
+}
+.banner-content a button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.banner-content a button:hover{
+    background-color: rgba(0, 0, 0, 0.426);
+    color: rgba(255, 255, 255, 0.992);
+}
+/* banner section end */
+
+/* development section start */
+.development-main{
+    width: 1140px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 80px auto;
+    padding: 80px 0  30px;
+    border-radius: 16px;
+}
+.development-main .development-info{
+    width: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+.development-main .development-info p{
+    padding: 30px 0 50px;
+}
+.development-item{
+    width: 950px;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+}
+.development-item .development-item-info{
+    width: 450px;
+    text-align: left;
+}
+.development-item .development-item-info p{
+    padding: 10px 0 40px;
+    color: #0D1321;
+    line-height: 26px;
+}
+.development-item .development-item-info a button{
+    width: Hug (171px)px;
+    height: Hug (47px)px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    border: 1px solid #0D1321;
+    opacity: 0.7px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.development-item .development-item-info a button:hover {
+    background-color: #1d1c1c;
+    color: rgb(255, 255, 255);
+}
+.dev-item-2 {
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+/* development section end */
+
+/* video section start */
+.video-content .video-head{
+    width: 800px;
+    padding-bottom:40px;
+    margin: 0 auto;
+}
+.video-content .video-head h2{
+    padding-bottom:20px;
+}
+.video-content .video-item{
+    padding: 35px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 20px;
+}
+/* video section end */
+
+/* current target section start */
+#current-target .current-target-head{
+    width: 850px;
+    margin: 80px auto;
+}
+.current-target-content .current-target-head h2{
+    padding-bottom:20px;
+}
+.current-target-content .target-items{
+    display: flex;
+    gap: 25px;
+}
+.target-items .item {
+    width: 365px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    text-align: left;
+}
+.target-items .item .item-img{
+    width: 56px;
+    height: 56px;
+    text-align: left;
+}
+.target-items .item-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target-items .item-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.target-items h3{
+    padding: 20px 0 10px;
+}
+
+.target-items button{
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;  
+    background-color: #ffffff00;
+    cursor: pointer;  
+}
+/* current target section end */
+
+/* next target section start */
+#next-target .next-target-head{
+    width: 850px;
+    margin: 80px auto;
+}
+.next-target-content .next-target-head h2{
+    padding-bottom:20px;
+}
+.next-target-content .target-item {
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+}
+.next-target-content .target-item .item-logo {
+    width: 110px;
+}
+.next-target-content .target-item .item-info {
+    text-align: left;
+}
+.next-target-content .target-item .item-info h2{
+    padding-bottom: 10px;
+}
+.next-target-content .target-item .item-info button {
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;  
+    background-color: #ffffff00;
+    cursor: pointer; 
+}
+/* next target section end */
+
+/* support section start */
+#support .container{
+    background-image: url(../images/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+#support .container .support-content{
+    width: 600px;
+    margin: 0 auto;
+}
+.support-overlay{
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 64px 50px; 
+    border-radius: 16px;
+}
+.support-content h2{
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.support-content p{
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    line-height: 28px;
+}
+.container .mailchimp input{
+    color: #280d0d;
+    width: 545px;
+    height: 55px;
+    line-height: 28px;
+    border-radius: 8px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+}
+.container .mailchimp input::placeholder{
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+}
+.container .mailchimp button{
+    padding: 15px 15px;
+    border-radius: 8px;
+    border: none;
+    width: 155px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+/* support section end */
