@@ -52,7 +52,7 @@ button{
 /* banner section start */
 #banner{
     width: 100%;
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(../images/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
